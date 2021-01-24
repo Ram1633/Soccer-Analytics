@@ -1,6 +1,6 @@
 ################################ Importing data and pre-processing ####################
-events <- read.csv("D:/OneDrive/Desktop/MGSC 661/Final Project/Data/events.csv")
-ginf <- read.csv("D:/OneDrive/Desktop/MGSC 661/Final Project/Data/ginf.csv")
+events <- read.csv("events.csv")
+ginf <- read.csv("ginf.csv")
 library(DataCombine)
 require(rms)
 library(dplyr)
